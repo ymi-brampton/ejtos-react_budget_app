@@ -11,7 +11,7 @@ const Currency = () => {
     }
 
     return (
-        <div className='alert alert-secondary'>
+        <div className='alert alert-success'>
             <span>Currency:</span>
             <select className="custom-select" id="inputGroupSelect01" onChange={(event) => changeCurrency(event.target.value)}>
                 <option value="$">$ Dollar</option>
